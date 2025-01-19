@@ -1,62 +1,22 @@
-/* Main Styling */
-main {
-    width: 80%;
-    margin: auto;
-}
-
-/* Aside Styling */
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
     color: #333;
-    text-align: center;
 }
 
 aside img {
     width: 200px;
     height: auto;
 }
-
-/* Main Image Styling */
 main img {
     width: 150px;
     height: auto;
 }
-
-/* Footer Styling */
 footer {
-    margin-top: 2rem;
+    margin-top: 20px;
     border-top: 1px solid #ccc;
     text-align: center;
-}
-
-/* Navigation Styling */
-nav {
-    background-color: darkblue;
-    padding: 10px;
-}
-
-nav a {
-    color: white;
-    display: block;
-    padding: 20px;
-}
-
-h1 {
-    color: darkblue;
-}
-
-img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
-
-p {
-    padding: 10px;
 }
