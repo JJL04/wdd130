@@ -21,6 +21,9 @@ main img {
     box-shadow:0 0 30 px gray
     
 }
+
+p { padding: 0; }
+
 footer {
     margin-top: 20px;
     border-top: 1px solid #ccc;
