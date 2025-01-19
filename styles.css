@@ -33,7 +33,7 @@ nav {background-color: rgb(242, 234, 15);
     text-align: center;
 
 }
-nav a{
+.nav-anchor{
     anchor-name: "top-nav";
 }
 h1{
