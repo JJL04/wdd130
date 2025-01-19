@@ -1,0 +1,28 @@
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid #1125de; /* 1 */
+    padding: 1rem;
+    background-color: #f10b0b;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid color(srgb red rgb(0, 15, 128) rgb(207, 121, 9));
+    padding:2px;
+    box-shadow:0 0 30 px gray
+    
+}
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
