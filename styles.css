@@ -40,3 +40,7 @@ h1{
 background-color:gray;
 text-align: left;
 }
+
+p{
+ padding: 0; 
+}
