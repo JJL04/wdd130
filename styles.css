@@ -8,24 +8,33 @@ aside {
     text-align: center;
 }
 
+
 aside img {
     width: 200px;
     height: auto;
 }
-
-main img {
-    width: 150px;
-    height: auto;
-    border: 1px solid color(srgb red rgb(0, 15, 128) rgb(207, 121, 9));
+main {
+    max-width: 400px;
+    border: 1px solid color(rgb red rgb(0, 15, 128) rgb(207, 121, 9));
     padding:2px;
-    box-shadow:0 0 30 px gray
+    box-shadow:0 0 30 px gray;
     
 }
 
-p { padding: 0; }
-
-footer {
+footer{
     margin-top: 20px;
     border-top: 1px solid #ccc;
     text-align: center;
+}
+
+nav {background-color: rgb(242, 234, 15);
+
+    padding : 10px;
+    text-align: center;
+
+}
+
+h1{
+background-color:gray;
+text-align: left;
 }
