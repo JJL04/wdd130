@@ -1,40 +1,48 @@
+/* styles.css */
+
+/* Styling for the aside element */
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid #1125de; /* 1 */
+    border: 1px solid #1125de;
     padding: 1rem;
     background-color: #f10b41;
     color: #333;
     text-align: center;
 }
 
-
+/* Styling for images inside the aside element */
 aside img {
     width: 200px;
     height: auto;
 }
+
+/* Styling for the main content area */
 main {
     max-width: 400px;
 }
 
-footer{
+/* Footer Styling */
+footer {
     margin-top: 20px;
     border-top: 1px solid #ccc;
     text-align: center;
 }
 
-nav {background-color: rgb(242, 234, 15);
-
-    padding : 10px;
+/* Navigation Bar Styling */
+nav {
+    background-color: rgb(242, 234, 15);
+    padding: 10px;
     text-align: center;
-
 }
 
-h1{
-background-color:gray;
-text-align: left;
+/* Header Styling */
+h1 {
+    background-color: gray;
+    text-align: left;
 }
 
-p{
- padding: 0; 
+/* Styling for paragraph elements */
+p {
+    padding: 0;
 }
