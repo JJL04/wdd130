@@ -1,66 +1,87 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Whitewater Rafting offers thrilling rafting adventures with expert guides on some of the most beautiful rivers in the world.">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Contact Whitewater Rafting for general inquiries, reservation questions, or website suggestions.">
     <meta name="author" content="Jayden Luke">
     <title>Contact Us - Whitewater Rafting</title>
-    <link rel="stylesheet" href="Rafting.css">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
-<body>
 
-    <!-- Header Section -->
+<body>
     <header>
-        <div>
-            <img src="z-splash.png" alt="Rafting Company Logo" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="trips.html">Trips</a></li>
-                    <li><a href="contact.html.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Us</h1>
     </header>
 
-    <!-- Main Content -->
     <main>
-        <!-- Contact Form Section -->
         <section>
-            <h1>Contact Us</h1>
-            <form action="submit_form.php" method="post">
+            <h2>Contact Information</h2>
+            <p>For general inquiries, reservation questions, or website suggestions, please use the form below.</p>
+            
+            <form action="#" method="post">
                 <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" value="Jayden" required>
+                <input type="text" id="name" name="name" required>
 
                 <label for="email">Your Email:</label>
-                <input type="email" id="email" name="email" value="lukejayden42@gmail.com" required>
+                <input type="email" id="email" name="email" required>
 
-                <label for="messagePurpose">Message Purpose:</label>
-                <select id="messagePurpose" name="messagePurpose">
-                    <option value="general_inquiry">General Inquiry</option>
-                    <option value="reservation_question">Reservation Question</option>
-                    <option value="website_suggestion">Website Suggestion</option>
-                </select>
+                <label for="message-purpose">Message Purpose:</label>
+                <input type="radio" id="inquiry" name="message-purpose" value="General Inquiry" required>
+                <label for="inquiry">General Inquiry</label>
+                
+                <input type="radio" id="reservation" name="message-purpose" value="Reservation Question" required>
+                <label for="reservation">Reservation Question</label>
+
+                <input type="radio" id="suggestion" name="message-purpose" value="Website Suggestion" required>
+                <label for="suggestion">Website Suggestion</label>
 
                 <label for="message">Your Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+                <textarea id="message" name="message" required></textarea>
 
-                <button type="submit">Submit</button>
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Subscribe to our newsletter
+                </label>
+
+                <button type="submit">Send Message</button>
             </form>
+        </section>
+
+        <section>
+            <h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAPS_EMBED_URL" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section>
+            <h2>Our Team</h2>
+            <img src="raftingadventure2.jpg" alt="Adventure image 1">
+            <img src="Raftingadventure.jpg" alt="Adventure image 2">
+            <img src="Raftingadventure3.jpg" alt="Adventure image 3">
+            <img src="raftingadventure4.jpg" alt="Adventure image 4">
+            <img src="Raftingadventure5.jpg" alt="Adventure image 5">
+            <img src="rafting 6.jpg" alt="Adventure image 6">
+            <img src="rafting 7.jpg" alt="Adventure image 7">
         </section>
     </main>
 
-    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2025 Whitewater Rafting | Created by Jayden Luke</p>
-        <div class="social-icons">
-            <a href="https://facebook.com" target="_blank"><img src="Facebook.jpg" alt="Facebook"></a>
-            <a href="https://x.com/" target="_blank"><img src="download.png" alt="Twitter"></a>
-            <a href="https://instagram.com" target="_blank"><img src="instagram.jpg" alt="Instagram"></a>
+        <p>© 2025 Whitewater Rafting | Created by Jayden Luke</p>
+        <div>
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://twitter.com">Twitter</a>
+            <a href="https://instagram.com">Instagram</a>
         </div>
     </footer>
-
 </body>
+
 </html>
