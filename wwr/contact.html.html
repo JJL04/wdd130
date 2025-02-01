@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contact Whitewater Rafting for general inquiries, reservation questions, or website suggestions.">
     <meta name="author" content="Jayden Luke">
     <title>Contact Us - Whitewater Rafting</title>
@@ -13,6 +13,7 @@
 <body>
     <header>
         <nav>
+            <!-- Added navigation links for site uniformity -->
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
@@ -20,68 +21,73 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <h1>Contact Us</h1>
     </header>
 
     <main>
-        <section>
-            <h2>Contact Information</h2>
-            <p>For general inquiries, reservation questions, or website suggestions, please use the form below.</p>
-            
-            <form action="#" method="post">
-                <label for="name">Your Name:</label>
-                <input type="text" id="name" name="name" required>
+        <h1>Contact Us</h1>
 
-                <label for="email">Your Email:</label>
+        <section class="company-info">
+            <h2>Our Contact Information</h2>
+            <address>
+                <p>123 River Rd, River City, RC 12345</p>
+                <p>Phone: (385) 450-9526</p>
+                <p>Email: <a href="mailto:contact@whitewaterrafting.com">contact@whitewaterrafting.com</a></p>
+            </address>
+        </section>
+
+        <section class="google-map">
+            <h2>Find Us</h2>
+            <!-- Embed Google map -->
+            <iframe src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAP_EMBED_LINK" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="username">Your Name:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="message-purpose">Message Purpose:</label>
-                <input type="radio" id="inquiry" name="message-purpose" value="General Inquiry" required>
-                <label for="inquiry">General Inquiry</label>
-                
-                <input type="radio" id="reservation" name="message-purpose" value="Reservation Question" required>
-                <label for="reservation">Reservation Question</label>
-
-                <input type="radio" id="suggestion" name="message-purpose" value="Website Suggestion" required>
-                <label for="suggestion">Website Suggestion</label>
+                <label for="messagePurpose">Message Purpose:</label>
+                <input type="radio" id="general" name="messagePurpose" value="General" required> General
+                <input type="radio" id="reservations" name="messagePurpose" value="Reservations" required> Reservations
+                <input type="radio" id="feedback" name="messagePurpose" value="Feedback" required> Feedback
 
                 <label for="message">Your Message:</label>
                 <textarea id="message" name="message" required></textarea>
 
-                <label for="newsletter">
-                    <input type="checkbox" id="newsletter" name="newsletter">
-                    Subscribe to our newsletter
-                </label>
+                <label for="newsletter">Subscribe to Newsletter:</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
 
                 <button type="submit">Send Message</button>
             </form>
         </section>
 
-        <section>
-            <h2>Our Location</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAPS_EMBED_URL" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <section class="employee-images">
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="Me.jpg" alt="Jayden">
+                <figcaption>Jayden - Customer Support</figcaption>
+            </figure>
+            <figure>
+                <img src="employee2.jpg" alt="Jane Smith">
+                <figcaption>Jane Smith - Reservations</figcaption>
+            </figure>
+            <figure>
+                <img src="employee3.jpg" alt="Bill Johnson">
+                <figcaption>Bill Johnson - Operations</figcaption>
+            </figure>
         </section>
 
-        <section>
-            <h2>Our Team</h2>
-            <img src="raftingadventure2.jpg" alt="Adventure image 1">
-            <img src="Raftingadventure.jpg" alt="Adventure image 2">
-            <img src="Raftingadventure3.jpg" alt="Adventure image 3">
-            <img src="raftingadventure4.jpg" alt="Adventure image 4">
-            <img src="Raftingadventure5.jpg" alt="Adventure image 5">
-            <img src="rafting6.jpg" alt="Adventure image 6">
-            <img src="rafting7.jpg" alt="Adventure image 7">
-        </section>
     </main>
 
     <footer>
-        <p>© 2025 Whitewater Rafting | Created by Jayden Luke</p>
-        <div>
-            <a href="https://facebook.com">Facebook</a>
-            <a href="https://twitter.com">Twitter</a>
-            <a href="https://instagram.com">Instagram</a>
-        </div>
+        <p>&copy; 2025 Whitewater Rafting | All Rights Reserved</p>
+        <p><a href="wireframe_document.pdf">View Wireframe</a></p>
     </footer>
+
 </body>
 
 </html>
